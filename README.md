@@ -4,6 +4,7 @@ This repository is an archive of selected coursework from my bachelor studies in
 
 ## What is included
 - `ai_challenge/`: RNA structure prediction project for the Stanford Ribonanza Kaggle challenge
+- `aml_med/`: applied machine learning in medicine coursework, including ECG classification, skin lesion analysis, sepsis-related experiments, and medical ML notebooks
 - `data_visualization/`: interactive visual story about indoor air quality and office performance
 - `database_systems/`: relational database and Streamlit dashboard for analyzing life expectancy, drinking water access, and infant mortality
 - `natural_language_processing/`: ARC multiple-choice reasoning project with word embeddings, BERT models, and LLM evaluation
