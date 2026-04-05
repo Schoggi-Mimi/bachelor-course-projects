@@ -1,36 +1,53 @@
-# Air Quality in Relation to Performance
-- Team Name: Air-Quality-Team
+# Air Quality and Office Performance Data Visualization
 
-## Motivation
+This project explores how indoor air quality metrics such as CO2, TVOC, and temperature relate to office conditions and perceived productivity through interactive visual storytelling.
 
-Air pollution is a major environmental concern that has made its way into indoor spaces, affecting people's productivity. This project aims to raise awareness about the potential consequences of indoor air pollution on productivity.
+## Overview
+- University group project in data visualization
+- Built around real air-Q sensor data from an architecture office
+- Goal: communicate how indoor air quality may affect comfort, focus, and work performance
+- Final outputs include an interactive HTML data story and written report
 
-## Work Description
+## What this folder contains
+- `main.ipynb`: notebook used for cleaning, analysis, and visualization
+- `main.html`: exported interactive data story
+- `final_report.pdf`: final report
+- `project_summary.pdf`: short project summary
+- `csv/`: raw sensor data from multiple office spaces
+- `img/`: floor plan and supporting images
+- `requirements.txt`: Python dependencies
 
-- **Data Collection**: Observed office spaces, collected data on equipment, including plants, air-Q devices, and workspaces.
-- **Data Analysis**: Cleaned and transformed raw data from air-Q devices.
-- **Visualization**: Used various chart types and color palettes to visualize data and communicate findings effectively.
+## Methods
+- Cleaned and transformed raw air-Q sensor data
+- Compared measurements across two office floors
+- Used floor plans to contextualize sensor placement, plants, and workspaces
+- Designed visualizations for time trends, comparisons, density, and distribution
+- Built the final narrative with interactive Plotly charts and Quarto-based reporting
 
-## Used Chart Types
+## Chart types used
+- Line charts for time-based behavior and trends
+- Heatmaps for quick visual summaries
+- Comparison charts for office-to-office differences
+- Distribution charts for value spread and outlier detection
+- Area charts for comparing average intensity over time
 
-- Line charts for tracking behavior over time.
-- Heatmaps for quick impressions.
-- Comparison charts to compare magnitude of values.
-- Distribution charts to see measurement values distributed along the time axis.
-- Area charts to compare intensity of average measurements.
+## Data source
+- Real-time data from air-Q sensors in an architecture office
+- Additional floor plan images used to explain measurement locations
 
-## Target Audience
+## Key findings
+- Regularly opening windows was associated with lower CO2 and TVOC levels
+- More plants appeared to have a positive effect on indoor air quality
+- Continuous monitoring helps identify periods of poor air quality and supports better workplace conditions
+- The project focused on communication and interpretation rather than causal proof
 
-This report is for everyone who works indoors, including office workers and students. Line charts are used for familiarity and understanding of behavior and progression over time.
+## Tech stack
+Python, pandas, NumPy, Plotly, Quarto, Jupyter
 
-## Data Source
+## Notes
+- This folder is kept as part of my bachelor coursework archive
+- The project focuses on data storytelling and visualization, not predictive modeling
+- The HTML and PDF outputs are the main deliverables
 
-Real-time data from an architecture office for GKS, extracted from air-Q sensors.
-
-## Conclusion
-
-Regularly opening windows and having more plants in an office can decrease CO2 and TVOC particles, leading to increased performance and health benefits. Constant monitoring of CO2 concentration is recommended to maintain worker performance.
-
-## Additional Information
-
-For a detailed report and visualizations, please refer to the PDF document provided in the project files.
+## Project context
+Group project for a data visualization course during my bachelor studies.
