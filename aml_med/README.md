@@ -12,10 +12,10 @@ This folder collects several practical assignments from an applied machine learn
 - `Assignment_1_signals/`: ECG signal classification assignment with added model comparison and evaluation metrics
 - `Assignment_2_skin_cancer/`: skin lesion dataset exploration and PH2 data loader preparation
 - `Assignment_3_predictions/`: prediction-related coursework notebook
-- `ecg.ipynb`, `ecg_executed.ipynb`, `ecg.pdf`: ECG modeling experiments and report
-- `sepsis.ipynb`, `sepsis.pdf`: sepsis-related notebook and report
-- `skin_cancer_classification.ipynb`, `skin_cancer_classification.pdf`: skin cancer classification work
-- `Melanoma_Identification_2020.ipynb`, `Melanoma_Identification_2020.pdf`: melanoma-related notebook and report
+- `ecg.ipynb`: ECG modeling experiments
+- `sepsis.ipynb`: sepsis-related notebook
+- `skin_cancer_classification.ipynb`: skin cancer classification work
+- `Melanoma_Identification_2020.ipynb`: melanoma-related notebook and report
 
 ## Topics covered
 - ECG signal classification and model comparison
