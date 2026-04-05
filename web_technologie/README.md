@@ -1,28 +1,39 @@
-# RSA Encryption Website
-- Individual Project
-
-## Introduction
-
-The website provides an implementation of the Rivest, Shamir, Adleman (RSA) encryption algorithm. The RSA algorithm is a widely-used public-key cryptosystem for secure communication over insecure networks.
-
-## Usage
-
-The handling of this website is very straightforward:
-
-1. **Key Generation**: The recipient selects two arbitrarily large prime numbers (denoted as p and q). The larger these numbers are, the more secure the encryption. The recipient keeps the private key and shares the public key with the communication partner.
-   
-2. **Encryption**: The communication partner encodes their message with the public key and sends it to the recipient as "ciphertext."
-
-3. **Decryption**: Only the recipient can decrypt this "ciphertext" using their private key. If the encrypted "ciphertext" is intercepted, its content remains hidden from the attacker.
-
-## Usage Instructions
-
-Once you have entered the relevant information into the form, you can view your result by clicking on "OUTPUT," "QUERY," and "EVALUATE." You will be redirected to another webpage. Please note that all fields are mandatory.
-
-Before you begin, ensure that your number is a prime number. You can check if your number is a prime by entering it into the "Prime Number Checker" field and verifying. Alternatively, you can generate random prime numbers by clicking on "PRIME NUMBER GENERATOR."
-
-![Website Screenshot](img/RSA.png)
-
-## Link to Website
-
 [Visit the RSA Encryption Website](https://test.tsarma.ch)
+# RSA Encryption Website
+
+This project is a small web application that demonstrates the RSA public-key encryption workflow, including prime number checking, prime number generation, message conversion, encryption, and decryption.
+
+## Overview
+- Individual project for a web technology course
+- Built as an educational website to explain and demonstrate RSA encryption
+- Includes helper tools for prime number validation and random prime generation
+- Combines frontend pages with backend logic for RSA-related operations
+
+## What this folder contains
+- `index.html`: main website interface
+- `css/`: page styling
+- `js/`: frontend logic for number conversion and prime checking
+- `rsa.php`: backend logic for RSA processing
+- `schema.sql`: database schema or setup file used in the project
+- `img/`: screenshots and supporting images
+
+## Features
+- Prime number checker
+- Prime number generator
+- RSA-style encryption and decryption workflow
+- Form-based user interaction
+- Educational explanation of the basic RSA process
+
+## Tech stack
+HTML, CSS, JavaScript, PHP, SQL
+
+## Website
+- Live demo: https://test.tsarma.ch (last checked in April 2026)
+
+## Notes
+- This project is kept as part of my bachelor coursework archive
+- It is an educational implementation and not intended as production-grade cryptographic software
+- If the live demo is no longer available, the source code in this folder still shows the full project structure
+
+## Project context
+Individual project for a web technology course during my bachelor studies.
